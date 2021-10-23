@@ -1,51 +1,42 @@
 fileFormatVersion: 2
-guid: 7a6dff7cb0c1a6648924087be5e45ce9
+guid: 51b940cc4f3c3a2489ff4fa0baef5195
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8864396992118686036
-    second: MarineCompleteSpriteSheet_512_0
+      213: -8554257404575733165
+    second: ez_kat_sprites_0
   - first:
-      213: -2738895383343495300
-    second: MarineCompleteSpriteSheet_512_1
+      213: 174122218099849655
+    second: ez_kat_sprites_1
   - first:
-      213: 8458748253617705033
-    second: MarineCompleteSpriteSheet_512_2
+      213: -103994899191994321
+    second: ez_kat_sprites_2
   - first:
-      213: 5472805538661422098
-    second: MarineCompleteSpriteSheet_512_3
+      213: 762292533891175801
+    second: ez_kat_sprites_3
   - first:
-      213: -5600425586784686152
-    second: MarineCompleteSpriteSheet_512_4
+      213: 2189264192995705692
+    second: ez_kat_sprites_4
   - first:
-      213: 5050853857427824044
-    second: MarineCompleteSpriteSheet_512_5
+      213: -731966642610768779
+    second: ez_kat_sprites_5
   - first:
-      213: -3992853303104106942
-    second: MarineCompleteSpriteSheet_512_6
+      213: 8245771438944284279
+    second: ez_kat_sprites_6
   - first:
-      213: 7798026311810572378
-    second: MarineCompleteSpriteSheet_512_7
+      213: -3699529608743714367
+    second: ez_kat_sprites_7
   - first:
-      213: -4067850700715593356
-    second: MarineCompleteSpriteSheet_512_8
+      213: 2644236297111175172
+    second: ez_kat_sprites_8
   - first:
-      213: -7115234148705569065
-    second: MarineCompleteSpriteSheet_512_9
-  - first:
-      213: 1107950908375787880
-    second: MarineCompleteSpriteSheet_512_10
-  - first:
-      213: -1250511344850691433
-    second: MarineCompleteSpriteSheet_512_11
-  - first:
-      213: 6436814912502639413
-    second: MarineCompleteSpriteSheet_512_12
+      213: -1036953568566388764
+    second: ez_kat_sprites_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -71,7 +62,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -81,13 +72,13 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 0
-  spriteMeshType: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 280
+  spritePixelsToUnits: 320
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -100,7 +91,7 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -130,12 +121,117 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MarineCompleteSpriteSheet_512_0
+      name: ez_kat_sprites_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 406
-        width: 68
+        x: 0
+        y: 395
+        width: 467
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a2203863c294980800000000000000
+      internalID: -8554257404575733165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ez_kat_sprites_1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 397
+        width: 323
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9385d1c3b9a6200800000000000000
+      internalID: 174122218099849655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ez_kat_sprites_2
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 394
+        width: 467
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28653fa0398e8ef0800000000000000
+      internalID: -103994899191994321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ez_kat_sprites_3
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 634
+        width: 77
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97514815505349a00800000000000000
+      internalID: 762292533891175801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ez_kat_sprites_4
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 460
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53cdfe2f24d16e10800000000000000
+      internalID: 2189264192995705692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ez_kat_sprites_5
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 459
+        width: 81
         height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -144,188 +240,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4518647491aa40b70800000000000000
-      internalID: 8864396992118686036
+      spriteID: 574ffb7773887d5f0800000000000000
+      internalID: -731966642610768779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MarineCompleteSpriteSheet_512_1
+      name: ez_kat_sprites_6
       rect:
         serializedVersion: 2
-        x: 153
-        y: 408
-        width: 76
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c778adef82d7df9d0800000000000000
-      internalID: -2738895383343495300
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MarineCompleteSpriteSheet_512_2
-      rect:
-        serializedVersion: 2
-        x: 286
-        y: 406
-        width: 67
-        height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 940d65568b2836570800000000000000
-      internalID: 8458748253617705033
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MarineCompleteSpriteSheet_512_3
-      rect:
-        serializedVersion: 2
-        x: 395
-        y: 462
-        width: 42
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 21454b824af43fb40800000000000000
-      internalID: 5472805538661422098
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MarineCompleteSpriteSheet_512_4
-      rect:
-        serializedVersion: 2
-        x: 459
-        y: 457
-        width: 42
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8bfa0b4e99a4742b0800000000000000
-      internalID: -5600425586784686152
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MarineCompleteSpriteSheet_512_5
-      rect:
-        serializedVersion: 2
-        x: 397
-        y: 392
-        width: 40
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cad9560a2dc381640800000000000000
-      internalID: 5050853857427824044
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MarineCompleteSpriteSheet_512_6
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 272
-        width: 75
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 24e0c3c63198698c0800000000000000
-      internalID: -3992853303104106942
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MarineCompleteSpriteSheet_512_7
-      rect:
-        serializedVersion: 2
-        x: 163
-        y: 273
-        width: 58
-        height: 93
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a506e986d97283c60800000000000000
-      internalID: 7798026311810572378
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MarineCompleteSpriteSheet_512_8
-      rect:
-        serializedVersion: 2
-        x: 282
-        y: 272
-        width: 74
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 471f58017571c87c0800000000000000
-      internalID: -4067850700715593356
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MarineCompleteSpriteSheet_512_9
-      rect:
-        serializedVersion: 2
-        x: 408
-        y: 266
+        x: 1937
+        y: 460
         width: 80
-        height: 108
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -333,20 +261,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d6fca86d3c914d90800000000000000
-      internalID: -7115234148705569065
+      spriteID: 77ee55d8f6dde6270800000000000000
+      internalID: 8245771438944284279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MarineCompleteSpriteSheet_512_10
+      name: ez_kat_sprites_7
       rect:
         serializedVersion: 2
-        x: 265
-        y: 146
-        width: 240
-        height: 77
+        x: 112
+        y: 21
+        width: 245
+        height: 313
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -354,20 +282,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8696f422b7b306f00800000000000000
-      internalID: 1107950908375787880
+      spriteID: 1c18acafb61a8acc0800000000000000
+      internalID: -3699529608743714367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MarineCompleteSpriteSheet_512_11
+      name: ez_kat_sprites_8
       rect:
         serializedVersion: 2
-        x: 2
-        y: 8
-        width: 125
-        height: 92
+        x: 779
+        y: 1
+        width: 129
+        height: 328
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -375,20 +303,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79a149eae8a45aee0800000000000000
-      internalID: -1250511344850691433
+      spriteID: 400818707e632b420800000000000000
+      internalID: 2644236297111175172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MarineCompleteSpriteSheet_512_12
+      name: ez_kat_sprites_9
       rect:
         serializedVersion: 2
-        x: 159
-        y: 10
-        width: 324
-        height: 102
+        x: 1293
+        y: 45
+        width: 250
+        height: 313
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -396,8 +324,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53b28a82f09245950800000000000000
-      internalID: 6436814912502639413
+      spriteID: 4e7d60139300c91f0800000000000000
+      internalID: -1036953568566388764
       vertices: []
       indices: 
       edges: []
