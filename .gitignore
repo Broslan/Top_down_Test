@@ -1,10 +1,10 @@
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-Assets/AssetStoreTools*
+Top_Down_2/[Ll]ibrary/
+Top_Down_2/[Tt]emp/
+Top_Down_2/[Oo]bj/
+Top_Down_2/[Bb]uild/
+Top_Down_2/[Bb]uilds/
+Top_Down_2/[Ll]ogs/
+Top_Down_2/Assets/AssetStoreTools*
 
 # Visual Studio cache directory
 .vs/
