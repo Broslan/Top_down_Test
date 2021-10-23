@@ -3,6 +3,7 @@
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
+[Ll]ogs/
 Assets/AssetStoreTools*
 
 # Visual Studio cache directory
@@ -37,23 +38,5 @@ sysinfo.txt
 *.unitypackage
 
 # Logfiles
-Top_Down_2/Logs/AssetImportWorker0.log
-Top_Down_2/Logs/shadercompiler-UnityShaderCompiler.exe0.log
-Top_Down_2/Logs/shadercompiler-UnityShaderCompiler.exe1.log
-Top_Down_2/Logs/shadercompiler-UnityShaderCompiler.exe2.log
-Top_Down_2/Logs/shadercompiler-UnityShaderCompiler.exe3.log
-Top_Down_2/Logs/shadercompiler-UnityShaderCompiler.exe4.log
-Top_Down_2/Logs/shadercompiler-UnityShaderCompiler.exe5.log
-Top_Down_2/Logs/shadercompiler-AssetImportWorker0.log
-Top_Down_2/Logs/AssetImportWorker0.log
-Top_Down_2/Logs/AssetImportWorker0-prev.log
 *.log
-Top_Down_2/Logs/shadercompiler-UnityShaderCompiler.exe5.log
-Top_Down_2/Logs/shadercompiler-UnityShaderCompiler.exe4.log
-Top_Down_2/Logs/shadercompiler-UnityShaderCompiler.exe3.log
-Top_Down_2/Logs/shadercompiler-UnityShaderCompiler.exe2.log
-Top_Down_2/Logs/shadercompiler-UnityShaderCompiler.exe1.log
-Top_Down_2/Logs/shadercompiler-UnityShaderCompiler.exe0.log
-Top_Down_2/Logs/shadercompiler-AssetImportWorker0.log
-Top_Down_2/Logs/AssetImportWorker0.log
-Top_Down_2/Logs/AssetImportWorker0-prev.log
+
