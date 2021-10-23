@@ -38,7 +38,7 @@ public class @InputMaster : IInputActionCollection, IDisposable
                     ""name"": ""MousePos"",
                     ""type"": ""Value"",
                     ""id"": ""29b76f08-5e9a-428e-928e-cc516cd76147"",
-                    ""expectedControlType"": ""Vector3"",
+                    ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """"
                 },

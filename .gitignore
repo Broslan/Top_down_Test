@@ -37,5 +37,5 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
-# Logfiles
+# Logs
 Top_Down_2/**/*.log
