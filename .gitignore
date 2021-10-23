@@ -38,4 +38,4 @@ sysinfo.txt
 *.unitypackage
 
 # Logfiles
-*.log
+Top_Down_2/**/*.log
