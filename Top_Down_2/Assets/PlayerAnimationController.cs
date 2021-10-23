@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class PlayerAnimationController : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] PlayerController playerController;
     void Start()
     {
-        
+        playerController = GetComponent<PlayerController>();
     }
 
-    // Update is called once per frame
+    public void MousLookAround()
+    {
+
+    }
     void Update()
     {
         

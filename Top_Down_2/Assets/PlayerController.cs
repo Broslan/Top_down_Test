@@ -20,11 +20,17 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform aimAxis;
     [SerializeField] private Animator gunAnimator;
 
+    //Player scripts handler
+    [SerializeField] PlayerAnimationController playerAnimationController;
+    [SerializeField] PlayerMovmentController playerMovmentController;
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         cam = Camera.main;
+        playerAnimationController = GetComponent<PlayerAnimationController>();
+        playerMovmentController = GetComponent<PlayerMovmentController>();
     }
 
     

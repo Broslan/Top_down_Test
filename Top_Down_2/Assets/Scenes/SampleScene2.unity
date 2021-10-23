@@ -31798,6 +31798,8 @@ MonoBehaviour:
   lookAngle: 0
   aimAxis: {fileID: 2034795442}
   gunAnimator: {fileID: 151246457}
+  playerAnimationController: {fileID: 0}
+  playerMovmentController: {fileID: 0}
 --- !u!50 &1647188997
 Rigidbody2D:
   serializedVersion: 4
@@ -32026,6 +32028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1eb668fa525b1847b7abfa0a8cf5cb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerController: {fileID: 0}
 --- !u!1 &1973400063
 GameObject:
   m_ObjectHideFlags: 0
