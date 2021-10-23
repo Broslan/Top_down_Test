@@ -83,7 +83,6 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-
         rb.velocity = movmentVector * movmentSpeed;
 
         if (isDashing)
@@ -100,7 +99,6 @@ public class PlayerController : MonoBehaviour
             rb.MovePosition(dashPos);
             isDashing = false;
         }
-
     }
 
     //void MovmentAnimationHandler()
