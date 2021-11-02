@@ -17,6 +17,7 @@ public class PlayerAnimationController : MonoBehaviour
         playerController.mousePos = playerController.cam.ScreenToWorldPoint(Mouse.current.position.ReadValue());
         Vector2 lookDir = playerController.mousePos - playerController.playerMovmentController.rb.position;
         float lookAngle1 = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
+        //playerController.fieldOfViev.SetAimDirection(lookAngle1);
         playerController.aimAxis.rotation = Quaternion.Euler(0, 0, lookAngle1);
         playerController.lookAngle = 180f - lookAngle1;
         if (playerController.lookAngle > 0 && playerController.lookAngle < 90 || playerController.lookAngle > 270 && playerController.lookAngle < 360)
@@ -32,11 +33,5 @@ public class PlayerAnimationController : MonoBehaviour
         playerController.anim.SetBool("isMoving", playerController.isMoving);
         playerController.anim.SetFloat("horizontalMov", playerController.lastMovmentVector.x);
         playerController.anim.SetFloat("verticalMov", playerController.lastMovmentVector.y);
-    }
-
-    
-    void Update()
-    {
-        
     }
 }

@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] internal Animator gunAnimator;
     [Tooltip("Rotate AimAxis")]
     [SerializeField] internal Transform aimAxis;
+    [SerializeField] internal Transform shootFrom;
     internal float lookAngle;
     internal Camera cam;
     internal Vector2 lastMovmentVector; //for animation
@@ -26,7 +27,11 @@ public class PlayerController : MonoBehaviour
     internal PlayerAnimationController playerAnimationController;
     [SerializeField] 
     internal PlayerMovmentController playerMovmentController;
-    
+    //[SerializeField]
+    //internal FieldOfView fieldOfViev;
+    [SerializeField]
+    internal PlayerShooting playerShooting;
+
 
     void Awake()
     {
@@ -44,11 +49,14 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         playerAnimationController.MouseLookAnimationHandler();
+        //fieldOfViev.SetOrigin(playerMovmentController.rb.position);
     }
 
     public void Shoot(InputAction.CallbackContext context)
     {
         gunAnimator.SetBool("Shoot", context.performed);
+        if (context.performed == true)
+            playerShooting.Shoot(aimAxis.position, cam.ScreenToWorldPoint(Mouse.current.position.ReadValue()));
     }
 
     private void FixedUpdate()
