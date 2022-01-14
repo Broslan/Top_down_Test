@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e24370443501242b24961c884d3a01, type: 3}
+  m_Name: TopDoor
+  m_EditorClassIdentifier: 
+  width: 6
+  height: 3
+  isSerialized: 1
+  serializable:
+  - Index0: 0
+    Index1: 0
+    Element: {fileID: 11400000, guid: 6ac96566032b8f64da6b98106f7e2463, type: 2}
+  - Index0: 0
+    Index1: 1
+    Element: {fileID: 11400000, guid: a3d5465c304d54247b2d18cb566dc15f, type: 2}
+  - Index0: 0
+    Index1: 2
+    Element: {fileID: 11400000, guid: e06e3c01a7566724d910163b07aecbb2, type: 2}
+  - Index0: 1
+    Index1: 0
+    Element: {fileID: 11400000, guid: 5352ab570f53e3c48ba9f5b99058d8af, type: 2}
+  - Index0: 1
+    Index1: 1
+    Element: {fileID: 11400000, guid: 5352ab570f53e3c48ba9f5b99058d8af, type: 2}
+  - Index0: 1
+    Index1: 2
+    Element: {fileID: 11400000, guid: 0f31c6bc13cf361488f133c65ac0002f, type: 2}
+  - Index0: 2
+    Index1: 0
+    Element: {fileID: 11400000, guid: 2b5b418e014eca749bdeb0b1ec881128, type: 2}
+  - Index0: 2
+    Index1: 1
+    Element: {fileID: 11400000, guid: 2b5b418e014eca749bdeb0b1ec881128, type: 2}
+  - Index0: 2
+    Index1: 2
+    Element: {fileID: 11400000, guid: f4d82342d046bc6459842a42ca28de57, type: 2}
+  - Index0: 3
+    Index1: 0
+    Element: {fileID: 11400000, guid: 1bbb8a5bdf4df484bbfd583cf10a952b, type: 2}
+  - Index0: 3
+    Index1: 1
+    Element: {fileID: 11400000, guid: 1bbb8a5bdf4df484bbfd583cf10a952b, type: 2}
+  - Index0: 3
+    Index1: 2
+    Element: {fileID: 11400000, guid: 647a9d24ea0f0024baffba5cc65b6fb2, type: 2}
+  - Index0: 4
+    Index1: 0
+    Element: {fileID: 11400000, guid: 1be2cd190097ab043ba5a349261b37ea, type: 2}
+  - Index0: 4
+    Index1: 1
+    Element: {fileID: 11400000, guid: 1be2cd190097ab043ba5a349261b37ea, type: 2}
+  - Index0: 4
+    Index1: 2
+    Element: {fileID: 11400000, guid: 62fad5cf80e154841ae6f0ee51c2a474, type: 2}
+  - Index0: 5
+    Index1: 0
+    Element: {fileID: 11400000, guid: 66b06b07db2992e4d9e24dfa6a894e77, type: 2}
+  - Index0: 5
+    Index1: 1
+    Element: {fileID: 11400000, guid: 3879d6752f1f8d543b7d6c0be359d0ba, type: 2}
+  - Index0: 5
+    Index1: 2
+    Element: {fileID: 11400000, guid: a0295c5d6fb377f4abc4c023a6fada0a, type: 2}
